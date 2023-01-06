@@ -50,3 +50,43 @@
 
 /* main content styles */
 
+.main-content-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 1100px;
+    gap: 100px;
+    max-width: 95%;
+    margin: 130px 100px;
+    
+}
+
+/* .main-content-box img{
+    margin-right: 85px;
+} */
+.main-content-text-title{
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.main-content-text-description{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: #444343;
+}
+.main-content-list-text{
+    list-style:inside;
+    list-style-type:upper-roman;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444343;
+}
+.main-content-text2{
+    margin-left: 100px;
+}
