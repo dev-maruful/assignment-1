@@ -90,3 +90,37 @@
 .main-content-text2{
     margin-left: 100px;
 }
+.plan-box-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.skill-plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px 130px;
+    gap: 30px;
+}
+.skill-plan-item{
+    text-align: center;
+}
+.skill-plan-item img{
+    margin-bottom: 25px;
+}
+.skill-plan-item-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+.skill-plan-item-description{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #737272;
+}
