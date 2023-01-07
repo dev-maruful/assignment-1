@@ -138,14 +138,28 @@
 
 /* background blend box */
 
-/* .blend-background-image{
-    background-image: url(../images/watch.png);
-    position: absolute;
-    width: 800px;
-    height: 300px;
-    left: 280px;
+
+.blend-background-image img{
+    margin-left: 100px;
     margin-bottom: 130px;
-} */
+    background-image: url(../images/watch.png);
+}
+.blend-background-image{
+    position: relative;
+}
+.blend-background-text{
+    position: absolute;
+    top: 0;
+    margin-left: 200px;
+    margin-top: 60px;
+    color: white;
+}
+.blend-background-text-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 25px;
+}
 
 /* footer styles */
 
