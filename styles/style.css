@@ -88,12 +88,19 @@
     color: #444343;
 }
 .main-content-list-text{
-    list-style:inside;
-    list-style-type:upper-roman;
+    list-style: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
     color: #444343;
+}
+.main-content-list-text .list-item::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: green;
+    margin-right: 10px;
 }
 .main-content-text2{
     margin-left: 100px;
@@ -185,6 +192,9 @@ footer{
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 25px;
+}
+.subscribe{
+    position:relative, top;
 }
 footer input[type="email"]{
     border: 2px solid white;
