@@ -206,3 +206,7 @@ footer input[type="email"]{
 .footer-icons img{
     margin-right: 18px;
 }
+.end{
+    text-align: center;
+    padding-bottom: 20px;
+}
