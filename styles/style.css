@@ -201,6 +201,8 @@ footer input[type="email"]{
     border: 2px solid white;
     background: #151414;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
     padding: 20px 150px 20px 20px;
     margin-bottom: 16px;
 }
